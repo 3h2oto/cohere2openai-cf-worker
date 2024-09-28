@@ -21,12 +21,7 @@ app.get("/v1/models", async (c) => {
   };
 
   const availableModelStrings = [
-    "command",
-    "command-nightly",
-    "command-light",
-    "command-light-nightly",
-    "command-r",
-    "command-r-plus",
+    "command-r-08-2024",
   ];
 
   for (const modelString of availableModelStrings) {
